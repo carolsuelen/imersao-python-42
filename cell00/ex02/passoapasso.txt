@@ -1,0 +1,18 @@
+<pre>c2r5p2% cd discovery_piscine
+c2r5p2% pwd
+/nfs/homes/csuelen-/discovery_piscine
+c2r5p2% cd cell
+cd: no such file or directory: cell
+c2r5p2% cd cell00
+c2r5p2% mkdir ex02
+c2r5p2% pwd
+/nfs/homes/csuelen-/discovery_piscine/cell00
+c2r5p2% python3 hello_world.py | cat -e
+python3: can&apos;t open file &apos;hello_world.py&apos;: [Errno 2] No such file or directory
+c2r5p2% python3 hello_world.py | cat -e
+python3: can&apos;t open file &apos;hello_world.py&apos;: [Errno 2] No such file or directory
+c2r5p2% cd ex02
+c2r5p2% python3 hello_world.py | cat -e
+Hello World$
+c2r5p2% 
+</pre>
